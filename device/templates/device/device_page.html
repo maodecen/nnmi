@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Node Check</title>
+</head>
+<body>
+
+    <form action="/device/device_page.html" method="POST"> {% csrf_token %}
+        <input type="text" name="textstring">
+        <input type="submit" value="check">
+    </form>
+
+</body>
+</html>
